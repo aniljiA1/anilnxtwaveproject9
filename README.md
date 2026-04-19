@@ -1,16 +1,158 @@
-# React + Vite
+# 🎬 MovieDB App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie browsing web application built using **React + Vite** and powered by the **OMDb API**.
+Users can explore movies, search by name, and view detailed information for each movie.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://anilnxtwaveproject9.vercel.app
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+* 🔥 Popular Movies (default list)
+* ⭐ Top Rated Movies (UI based)
+* 🎬 Upcoming Movies (UI based)
+* 🔍 Search Movies
+* 📄 Single Movie Detail Page
+* 📱 Fully Responsive Design
+* ⚡ Fast performance with Vite
+* ♻️ Reusable React Components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ React.js
+* ⚡ Vite
+* 🌐 React Router DOM
+* 📡 Axios
+* 🎨 CSS
+
+---
+
+## 📂 Folder Structure
+
+```
+movie-app/
+│── public/
+│   └── no-image.png
+│
+│── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   └── MovieCard.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── TopRated.jsx
+│   │   ├── Upcoming.jsx
+│   │   ├── MovieDetail.jsx
+│   │   └── Search.jsx
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+└── .env
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root:
+
+```
+VITE_API_KEY=your_api_key
+```
+
+👉 Example:
+
+```
+VITE_API_KEY=trilogy
+```
+
+---
+
+## 📡 API Used
+
+* OMDb API
+  https://www.omdbapi.com/
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/aniljiA1/anilnxtwaveproject9.git
+```
+
+### 2️⃣ Navigate to project
+
+```
+cd movie-app
+```
+
+### 3️⃣ Install dependencies
+
+```
+npm install
+```
+
+### 4️⃣ Start development server
+
+```
+npm run dev
+
+http://localhost:5173
+```
+
+---
+
+
+---
+
+## 🧠 What I Learned
+
+* Working with APIs using Axios
+* Routing using React Router
+* Handling dynamic routes (`/movie/:id`)
+* Managing state with hooks
+* Error handling (API + images)
+* Building reusable components
+
+---
+
+## 📌 Future Improvements
+
+* 🎨 Better UI (Netflix style)
+* ⭐ Add ratings UI
+* ❤️ Add favorites feature
+* 🔄 Pagination improvement
+* 🌙 Dark mode toggle
+
+---
+
+## 🙌 Acknowledgements
+
+* OMDb API for movie data
+* React & Vite for development
+
+---
+
+## 👨‍💻 Author
+
+Anil Kumar
+
+---
+
+
+
+
