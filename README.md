@@ -92,6 +92,8 @@ VITE_API_KEY=trilogy
 
 ```
 git clone https://github.com/aniljiA1/anilnxtwaveproject9.git
+
+codesandbox: https://codesandbox.io/p/github/aniljiA1/anilnxtwaveproject9/main?import=true
 ```
 
 ### 2️⃣ Navigate to project
