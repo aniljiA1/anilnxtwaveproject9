@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #222;
+}
+
+.navbar a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  cursor: pointer;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.pagination {
+  text-align: center;
+  margin: 20px;
+}
+
+.detail {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cast {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.cast img {
+  width: 100px;
+}
+
+.no-image {
+  width: 100%;
+  height: 300px;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
